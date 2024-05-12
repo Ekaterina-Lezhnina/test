@@ -1,0 +1,18 @@
+class HomeAnimals:
+    def __init__(self, type, name, weight = 0):
+        self.type = type
+        self.name = name
+        self.weight = weight
+
+goose_1 = HomeAnimals('гусь', 'Серый')
+#print(goose_1.type, goose_1.name)
+goose_2 = HomeAnimals('гусь', 'Белый')
+cow = HomeAnimals('корова', 'Манька')
+sheep_1 = HomeAnimals('овца', 'Барашек')
+sheep_2 = HomeAnimals('овца', 'Кудрявый')
+#print(sheep_2.type, sheep_2.name)
+chicken_1 = HomeAnimals('курица', 'Ко-ко')
+chicken_2 = HomeAnimals('курица', 'Кукареку')
+goat_1 = HomeAnimals('коза', 'Рога')
+goat_2 = HomeAnimals('коза', 'Копыта')
+duck = HomeAnimals('утка', 'Кряква')
